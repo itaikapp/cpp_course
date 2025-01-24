@@ -31,13 +31,14 @@ int main() {
 
     switch(n) {
     case 1: {
-        // kdnfbksjfghlk
+        printf("n is %d. no breaking fall through\n", n);
     }
     case 2: {
-        //....
+        printf("n is %d. no breaking fall through\n", n);
         break;
     }
     default: {
+        printf("n is %d. no breaking fall through\n", n);
     }
     }
 
